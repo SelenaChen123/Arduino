@@ -1,0 +1,1 @@
+/*  Light up an LED for a second, then turn it off forever*/int ledPin = 12;void setup() {    pinMode(ledPin, INPUT);}void loop() {    digitalWrite(ledPin, HIGH);    delay(1000);    digitalWrite(ledPin, LOW);    delay(100000000000000000);}

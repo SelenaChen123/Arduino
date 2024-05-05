@@ -1,0 +1,1 @@
+/*  Press and hold down a button to turn on an LED*/int ledPin = 12;int pushButton = 3;void setup() {    pinMode(pushButton, INPUT);    pinMode(ledPin, OUTPUT);}void loop() {    if (digitalRead(pushButton) == HIGH) {      digitalWrite(ledPin, HIGH);    } else if (digitalRead(pushButton) == LOW) {      digitalWrite(ledPin, LOW);    }}
